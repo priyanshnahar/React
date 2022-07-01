@@ -1,0 +1,45 @@
+.App {
+  width: 320px;
+  margin: 100px auto;
+  text-align: center;
+}
+
+#result {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  font-size: 35px;
+  width: 295px;
+  height: 45px;
+  text-align: right;
+  border: 3px solid #ff7033;
+  border-radius: 10px 10px 0 0;
+}
+
+.button {
+  background: #d3d3d3;
+  height: 80px;
+  width: 80px;
+  color: black;
+  font-size: 30px;
+  border: 1px solid #ff7033;
+  float: left;
+}
+
+.button1 {
+  background: #fff;
+  height: 80px;
+  width: 80px;
+  color: black;
+  font-size: 30px;
+  border: 1px solid #ff7033;
+}
+
+.button2 {
+  background: #ff7033;
+  height: 57px;
+  width: 321px;
+  color: black;
+  font-size: 30px;
+  border: 1px solid #d3d3d3;
+}
