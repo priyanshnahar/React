@@ -1,6 +1,8 @@
 What is react router?
-React router is a library, it allows changing the page without refreshing 
-(It enables the navigation among views of various components in a React Application, allows changing the browser URL, and keeps the UI in sync with the URL.)
+-React router is a library, it allows changing the page without reloading 
+-instead of bringing a new page, we can just fit a new component in our app 
+- basically we can change components
+-(It enables the navigation among views of various components in a React Application, allows changing the browser URL, and keeps the UI in sync with the URL.)
 
 What are props in react js ?
 props are basically properties, we can use props to pass data from one component to another
