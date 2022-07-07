@@ -1,0 +1,13 @@
+What is react router?
+React router is a library, it allows changing the page without refreshing 
+(It enables the navigation among views of various components in a React Application, allows changing the browser URL, and keeps the UI in sync with the URL.)
+
+What are props in react js ?
+props are basically properties, we can use props to pass data from one component to another
+
+What are states in react js ?
+The state is a local data storage that is local to the component only and cannot be passed to other components.
+
+What are hooks in react js?
+let you use state and other React features without writing a class.
+Example :- (import React, { useState } from 'react';)
