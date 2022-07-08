@@ -3,13 +3,13 @@ import "./App.css";
 
 export default function Table() {
   const [data, setData] = useState([]);
-  async function record() {
+  async function fetchData() {
     const result = await fetch("https://jsonplaceholder.typicode.com/posts");
     const js = await result.json();
     setData(js);
   }
   useEffect(() => {
-    record();
+    fetchData();
   }, []);
   console.log(data);
 
